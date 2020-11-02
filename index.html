@@ -219,7 +219,7 @@
   <table align="center" width="300px" style="padding-top: 25px">
     <tbody>
       <tr>
-        <td align="center" width="300px"><iframe width="700" height="400" src="https://www.youtube.com/embed/o8j4Ov_oF7A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+        <td align="center" width="300px"><iframe width="700" height="400" src="https://www.youtube.com/embed/IJQC5LT_jZc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
         </td>
       </tr>
     </tbody>
@@ -230,7 +230,7 @@
 
 
   <div style="width:800px; margin:0 auto; text-align:justify">
-    Semantic cues and statistical regularities in real-world environment layouts can improve efficiency for navigation in novel environments. This paper learns and leverages such semantic cues for navigating to objects of interest in novel environments, by simply watching YouTube videos. This is challenging because YouTube videos don't come with labels for actions or goals, and may not even showcase optimal behavior. Our proposed method tackles these challenges through the use of Q-learning on pseudo-labeled transition quadruples (image, action, next image, reward). Our experiments in visually realistic simulations demonstrate that such off-policy Q-learning from passive data is able to learn meaningful semantic cues for navigation. These cues, when used in a hierarchical navigation policy, lead to improved efficiency for goal reaching, and are able to improve upon end-to-end RL based methods by 66%, while at the same time using 250 times fewer interaction samples. Code, dataset, and models will be made available.
+Semantic cues and statistical regularities in real-world environment layouts can improve efficiency for navigation in novel environments. This paper learns and leverages such semantic cues for navigating to objects of interest in novel environments, by simply watching YouTube videos. This is challenging because YouTube videos don't come with labels for actions or goals, and may not even showcase optimal behavior. Our method tackles these challenges through the use of Q-learning on pseudo-labeled transition quadruples (image, action, next image, reward). We show that such off-policy Q-learning from passive data is able to learn meaningful semantic cues for navigation. These cues, when used in a hierarchical navigation policy, lead to improved efficiency at the ObjectGoal task in visually realistic simulations. We observe a relative improvement of 15-83% over end-to-end RL, behavior cloning, and classical methods, while using minimal direct interaction.
   </div>
   <br />
 
@@ -284,17 +284,18 @@
         </td>
 
         <td width="450px" align="left">
-          <span style="font-size:6px;">&nbsp;<br /></span> <span style="font-size:15pt">Matthew Chang, Arjun Gupta, Saurabh Gupta. <br/>Semantic Visual Navigation by Watching Youtube Videos. <br/>In arXiv 2020.</span></p>
+          <span style="font-size:6px;">&nbsp;<br /></span> <span style="font-size:15pt">Matthew Chang, Arjun Gupta, Saurabh Gupta. <br/>Semantic Visual Navigation by Watching Youtube Videos. <br/>In NeurIPS 2020.</span></p>
           <div class="paper" id="assemblies19_bib">
             <pre xml:space="preserve" style="display: block; font-size: 12px">
 @inproceedings{chang2020semantic,
   title={Semantic Visual Navigation by Watching Youtube Videos},
   author={Matthew Chang and Arjun Gupta and Saurabh Gupta},
-  booktitle={arXiv},
+  booktitle={NeurIPS 2020},
   year={2020}
 }
 </pre>
           </div>
+          <div>Slides available <a href="http://matthewchang.web.illinois.edu/public_slides/valueLearningFromVideos.key">here</a></div>
         </td>
       </tr>
 
@@ -306,13 +307,13 @@
   <hr />
   <center>
     <h1>Code</h1>
-    <center><span>Coming soon</span></center>
+    <center><span>Dataset download, pre-trained models, with training and testing code, available <a href="https://github.com/MatthewChang/video-dqn">here</a>.</span></center>
   </center>
   <hr/>
 <table align="center" width="800px">
       <tbody><tr><td width="800px"><left>
       <center><h1>Acknowledgements</h1></center>
-      We thank Sanjeev Venkatesan for help with data collection. We also thank Rishabh Goyal, Ashish Kumar, and Tanmay Gupta for feedback on the paper, and Shubham Tulsiani for feedback on the video.
+We thank Sanjeev Venkatesan for help with data collection. We also thank Rishabh Goyal, Ashish Kumar, and Tanmay Gupta for feedback on the paper. This material is based upon work supported by NSF under Grant No. IIS-2007035, and DARPA Machine Common Sense.
           Website template from <a href="https://richzhang.github.io/colorization">here</a>, <a href="https://pathak22.github.io/modular-assemblies/">here</a>, and <a href="http://www.cs.cmu.edu/~dchaplot/projects/neural-topological-slam.html">here</a>. <br>
       </left></td></tr>
     </tbody></table>
